@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WMSService", "WMSService\WMSService.csproj", "{F5EC1FAE-0A32-45DE-A279-118B97DD0CEA}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WMSServiceDatabase", "WMSServiceDatabase\WMSServiceDatabase.sqlproj", "{B10E3658-A454-4752-BE79-853EC96DB459}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCore.Identity.Dapper", "AspNetCore.Identity.Dapper\AspNetCore.Identity.Dapper.csproj", "{FE33B4CB-4FCE-45A2-9D1D-38A7A38C21AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5EC1FAE-0A32-45DE-A279-118B97DD0CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5EC1FAE-0A32-45DE-A279-118B97DD0CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5EC1FAE-0A32-45DE-A279-118B97DD0CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5EC1FAE-0A32-45DE-A279-118B97DD0CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B10E3658-A454-4752-BE79-853EC96DB459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B10E3658-A454-4752-BE79-853EC96DB459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B10E3658-A454-4752-BE79-853EC96DB459}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B10E3658-A454-4752-BE79-853EC96DB459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B10E3658-A454-4752-BE79-853EC96DB459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B10E3658-A454-4752-BE79-853EC96DB459}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{FE33B4CB-4FCE-45A2-9D1D-38A7A38C21AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE33B4CB-4FCE-45A2-9D1D-38A7A38C21AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE33B4CB-4FCE-45A2-9D1D-38A7A38C21AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE33B4CB-4FCE-45A2-9D1D-38A7A38C21AF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4B0B55D1-2F83-4C26-B152-311988A86E5F}
+	EndGlobalSection
+EndGlobal
