@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>WMSServiceDatabase</Name>
+    <Name>WMSService.Database</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{b10e3658-a454-4752-be79-853ec96db459}</ProjectGuid>
@@ -69,5 +69,6 @@
     <Build Include="dbo\Tables\AspNetUserLogins.sql" />
     <Build Include="dbo\Tables\AspNetUsers.sql" />
     <Build Include="dbo\Tables\AspNetUserTokens.sql" />
+    <Build Include="dbo\Tables\UserProfiles.sql" />
   </ItemGroup>
 </Project>

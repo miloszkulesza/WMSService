@@ -5,6 +5,9 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using WMSService.Dapper;
+using WMSService.Dapper.Abstract;
+using WMSService.Dapper.Tables;
 using WMSService.Models;
 
 namespace WMSService
@@ -35,6 +38,8 @@ namespace WMSService
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "WMSService", Version = "v1" });
             });
+            services.AddTransient<IDbConnectionFactory, SqlServerDbConnectionFactory>();
+            services.AddTransient<IUserProfilesTable, UserProfilesTable>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

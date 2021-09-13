@@ -18,6 +18,10 @@
 );
 
 
+
+
+
+
 GO
 CREATE UNIQUE NONCLUSTERED INDEX [UserNameIndex]
     ON [dbo].[AspNetUsers]([NormalizedUserName] ASC) WHERE ([NormalizedUserName] IS NOT NULL);

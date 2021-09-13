@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AspNetCore.Identity.Dapper\AspNetCore.Identity.Dapper.csproj" />
+    <ProjectReference Include="..\WMSService.Dapper\WMSService.Dapper.csproj" />
   </ItemGroup>
 
 </Project>
